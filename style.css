@@ -35,7 +35,7 @@ body{
       z-index : 500;
       width   : 100%;
       height  : 40px;
-      background-color: darkgreen;
+      background-color: grey;
 }
 
 #tabs-top a{
@@ -44,7 +44,7 @@ body{
       width   : 33%;
       height  :35px;
       font-weight : 700;
-      color       : white;
+      color       : black;
       text-align  : center;
       text-decoration : none;
       padding-top     : 12px;  
