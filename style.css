@@ -5,7 +5,7 @@ body{
      background-color: #E1EAF3;
 }
 /*=================== TOP-TABS ==========================*/
-/* Header settings */
+
 #header{
       position: fixed;
       top     : 0;
@@ -17,7 +17,7 @@ body{
       background-repeat: repeat-x;
 }
 
-/* Header image settings */
+
 #header img{
       display: block;
       margin : auto;
@@ -27,7 +27,7 @@ body{
 }
 
 
-/* customizing the tabs on top */
+
 #tabs-top{
       position: fixed;
       top     : 80px;
@@ -38,7 +38,7 @@ body{
       background-color: deepskyblue;
 }
 
-/* customize the links on the tabs and its text*/
+
 #tabs-top a{
       float   : left;
       display : block;
@@ -228,28 +228,7 @@ a.info-box{
       text-align : center;
 }
 
-/*============== message for link on specials =======================*/
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: floralwhite;
-  color: cadetblue;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 /*============== about page =======================*/
 
