@@ -1,14 +1,3 @@
-#logo{
-    width: 230px;
-    height: 127px;
-    
-    margin: 6px;
-    border-radius: 5%;
-    
-}
-#logo {
-    background-color: transparent;
-}
 
 body{
      padding    : 0;
@@ -25,7 +14,7 @@ body{
       z-index : 500;
       width   :100%;
       height  :80px;
-      background-image  : url('images/plank.jpg');
+      background-image  : url('https://www.pinterest.com/pin/645774034065453418/');
       background-repeat: repeat-x;
 }
 
