@@ -1,14 +1,11 @@
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 body{
      padding    : 0;
      margin     : 0;
      font-family: Helvetica;
+     background-color: #E1EAF3;
 }
-
+/*=================== TOP-TABS ==========================*/
+/* Header settings */
 #header{
       position: fixed;
       top     : 0;
@@ -16,19 +13,21 @@ body{
       z-index : 500;
       width   :100%;
       height  :80px;
-      background-image  : url('https://mzwili.github.io/pinecitymall/about.html');
+      background-image  : url('images/plank.jpg');
       background-repeat: repeat-x;
 }
 
+/* Header image settings */
 #header img{
-      display: rectangle;
+      display: block;
       margin : auto;
-      height : 70%;
+      height : 80%;
+      width  : 8%; 
       padding-top: 15px; 
 }
 
-/*=============== TOP-TABS =========================*/
 
+/* customizing the tabs on top */
 #tabs-top{
       position: fixed;
       top     : 80px;
@@ -36,72 +35,106 @@ body{
       z-index : 500;
       width   : 100%;
       height  : 40px;
-      background-color: grey;
+      background-color: deepskyblue;
 }
 
+/* customize the links on the tabs and its text*/
 #tabs-top a{
       float   : left;
       display : block;
       width   : 33%;
       height  :35px;
       font-weight : 700;
-      color       : black;
+      color       : white;
       text-align  : center;
       text-decoration : none;
       padding-top     : 12px;  
 }
 
-/*=============== MAIN-HOME =========================*/
+#tabs-top a:hover{
+    color: blue;
+}
 #main-home{
        margin-top: 120px;
 }
 
-/*=========== BOTTOM-TABS ==============*/
+/*================ bottm tabs ===========================*/
 
 #tabs-bottom{
-      position : fixed;
-      bottom   : 0;
-      left     : 0;
-      z-index  : 500;
-      width    : 100%;
-      height   : 40px;
-      background-color: grey;
+      position: fixed;
+      bottom  : 0;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: deepskyblue;
 }
 
 #tabs-bottom a{
-     float : left;
-     display : block;
-     width : 50%;
-     height : 35px;
-     font-weight : 700;
-     color       : Black;
-     text-align  : center;
-     text-decoration : none;
-     padding-top     : 12px;
+    float   : left;
+      display : block;
+      width   : 50%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 10px;
+    
 }
-/*============= MAIN =============*/
+#tabs-bottom a:hover{
+    color: blue;
+}
 
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :65px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      widows: 100%;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+/* ============== Main =======================*/
 #main{
-    margin-top: 119px;
-    background: url('PCM images/pcm el.jpeg');
-    background-repeat: repeat-y;
+     margin-top: 119px;
+     background: url('images/mall.png');
+     background-repeat: repeat-y;
 }
 
 #content{
-    padding-top: 1px;
-    padding-bottom: 50px;
+     padding-top: 1px;
+     padding-bottom: 50px;
 }
-/*================= INFO-BOX ==========*/
 
+/*============== info-box =======================*/
 a.info-box{
-      text-decoration : none;
-      background      : rgba(255, 225, 255, .8);
-      width           : 90%;
-      height          : 90px;
-      display         : block;
-      margin          : auto;
-      margin-top      : 12px;
-      padding         : 1px; 
+     text-decoration : none;
+     background    : rgba(192,192,192,0.8);
+     width           : 95%;
+     height          : 90px;
+     display         : block;
+     margin          : auto;
+     margin-top      : 12px;
+     padding-top     : 1px; 
 }
 .info-box img{
       height : 70px;
@@ -126,79 +159,117 @@ a.info-box{
 .info-box img.right{
       float      : right;
       margin-top : 25px;
-      height :   40px; 
+      height     :40px; 
 }
-
-/*========= INFO-BOX-FULL ==========*/
-
+/*============== Info full box =======================*/
 #info-box-full{
-      background-color : rgba(255, 255, 255, .8);
-      width   : 90%;
-      display : block;
-      margin  : auto;
-      margin-top : 12px;
-      padding    : 10px;
+      background    : rgba(192,192,192,0.8);
+      width         : 50%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
 }
-
-
 
 #info-box-full img{
       width : 100%;
 }
 
-
-
 #info-box-full h3{
       text-align : center;
 }
-
-/*========= WEATHER=======*/
-
-img.info-box-weather-icon{
-     height: 30px;
-     width: 30px !important;
-     margin: 10px;
-     float:left; 
+.store img{
+    height : 70px;
+      margin : 10px;
+      float  : left;
 }
 
-h1.info-box-weather-icon{
-     font-size: 65px;
-     font-weight: 200;
-     padding: 0;
-     margin: 0;
+#shop {
+    background    : rgba(192,192,192,0.8);
+      width         : 70%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
 }
 
-table{
-    width:100%;
+#shop img{
+    width : 100%;
+    height: auto;
+}
+#shop a {
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px powderblue ;
 }
 
-td{
-    border-top: 1px solid #131313;
-}
-/*========== FORM ============*/
-input{
-      width: 100%;
-      height: 25px;
-      margin : 12px 0;
-      border : 1px solid #929292;
+#shop h3{
+    font-size: 40px;
 }
 
-textarea{
-      width: 100%;
-      height :25px;
-      margin : 12px 0;
-      border : 1px solid #929292;
+#storep{
+      background    : rgba(192,192,192,0.8);
+      width         : 75%;
+      height :       : 20px;
+      display       : block;
+      margin        : auto;
+      margin-top    : 12px;
+      padding       : 10px;
 }
 
-.button{
-      display : block;
+#storep img{
       width : 100%;
-      background-color: grey;
-      text-decoration : none;
-      text-align  : center;
-      color       : white;
-      font-size   : 16px;
-      font-weight : 600;
-      margin : 12px 0;
-      padding : 8px 0;
 }
+
+#storep h3{
+      text-align : center;
+}
+
+/*============== message for link on specials =======================*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: floralwhite;
+  color: cadetblue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*============== about page =======================*/
+
+#mall img {
+  border: 5px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  width: 550px;
+}
+#mall{
+  padding-top: 5px;
+  display: block;
+  margin-top: 119px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#mall h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 37px;
+}
+
