@@ -31,7 +31,7 @@ body{
       z-index : 500;
       width   : 100%;
       height  : 40px;
-      background-color: darkgreen;
+      background-color: powderblue;
 }
 
 #tabs-top a{
@@ -96,7 +96,7 @@ textarea{
 .button{
       display : block;
       widows: 100%;
-      background-color: forestgreen;
+      background-color: powderblue;
       text-decoration : none;
       text-align  : center;
       color       : white;
@@ -156,7 +156,7 @@ a.info-box{
 }
 /*============== Info full box =======================*/
 #info-box-full{
-      background    : rgba(192,192,192,0.8);
+     background: url('mall.jpg');
       width         : 50%;
       height :       : 20px;
       display       : block;
@@ -179,7 +179,7 @@ a.info-box{
 }
 
 #shop {
-    background    : rgba(192,192,192,0.8);
+   background: url('mall.jpg');
       width         : 70%;
       height :       : 20px;
       display       : block;
@@ -199,49 +199,6 @@ a.info-box{
     text-shadow: 2px 2px powderblue ;
 }
 
-#shop h3{
-    font-size: 40px;
-}
-
-#storep{
-      background    : rgba(192,192,192,0.8);
-      width         : 75%;
-      height :       : 20px;
-      display       : block;
-      margin        : auto;
-      margin-top    : 12px;
-      padding       : 10px;
-}
-
-#storep img{
-      width : 100%;
-}
-
-#storep h3{
-      text-align : center;
-}
 
 
-}
-/*============== about page =======================*/
-
-#mall img {
-  border: 5px solid #ddd;
-  border-radius: 3px;
-  padding: 10px;
-  width: 550px;
-}
-#mall{
-  padding-top: 5px;
-  display: block;
-  margin-top: 119px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-#mall h3{
-    font-family: cursive;
-    text-align: center;
-    font-size: 37px;
-}
 
