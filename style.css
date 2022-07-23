@@ -32,7 +32,7 @@ body{
       z-index : 500;
       width   : 100%;
       height  : 40px;
-      background-color: powderblue;
+      background-color: darkgreen;
 }
 
 #tabs-top a{
@@ -47,84 +47,57 @@ body{
       padding-top     : 12px;  
 }
 
+/*=============== MAIN-HOME =========================*/
+#main-home{
+       margin-top: 120px;
+}
 
-/*================ bottm tabs ===========================*/
+/*=========== BOTTOM-TABS ==============*/
 
 #tabs-bottom{
-      position: fixed;
-      bottom  : 0;
-      left    : 0;
-      z-index : 500;
-      width   : 100%;
-      height  : 40px;
-      background-color: deepskyblue;
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: forestgreen;
 }
 
 #tabs-bottom a{
-    float   : left;
-      display : block;
-      width   : 50%;
-      height  :35px;
-      font-weight : 700;
-      color       : white;
-      text-align  : center;
-      text-decoration : none;
-      padding-top     : 10px;
-    
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 12px;
 }
-#tabs-bottom a:hover{
-    color: blue;
-}
+/*============= MAIN =============*/
 
-input{
-      width: 100%;
-      height: 25px;
-      margin : 12px 0;
-      border : 1px solid #929292;
-}
-
-textarea{
-      width: 100%;
-      height :65px;
-      margin : 12px 0;
-      border : 1px solid #929292;
-}
-
-.button{
-      display : block;
-      widows: 100%;
-      background-color: powderblue;
-      text-decoration : none;
-      text-align  : center;
-      color       : white;
-      font-size   : 16px;
-      font-weight : 600;
-      margin : 12px 0;
-      padding : 8px 0;
-}
-
-/* ============== Main =======================*/
 #main{
-     margin-top: 119px;
-     background: url('mall.jpg');
-     background-repeat: repeat-y;
+    margin-top: 119px;
+    background: url('pineCityZooImages/images/map-blur.png');
+    background-repeat: repeat-y;
 }
 
 #content{
-     padding-top: 1px;
-     padding-bottom: 50px;
+    padding-top: 1px;
+    padding-bottom: 50px;
 }
+/*================= INFO-BOX ==========*/
 
-/*============== info-box =======================*/
 a.info-box{
-     text-decoration : none;
-     background    : rgba(192,192,192,0.8);
-     width           : 95%;
-     height          : 90px;
-     display         : block;
-     margin          : auto;
-     margin-top      : 12px;
-     padding-top     : 1px; 
+      text-decoration : none;
+      background      : rgba(255, 225, 255, .8);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
 }
 .info-box img{
       height : 70px;
@@ -149,53 +122,60 @@ a.info-box{
 .info-box img.right{
       float      : right;
       margin-top : 25px;
-      height     :40px; 
+      height :   40px; 
 }
-/*============== Info full box =======================*/
+
+/*========= INFO-BOX-FULL ==========*/
+
 #info-box-full{
-     background: url('mall.jpg');
-      width         : 50%;
-      height :       : 20px;
-      display       : block;
-      margin        : auto;
-      margin-top    : 12px;
-      padding       : 10px;
+      background-color : rgba(255, 255, 255, .8);
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
 }
+
+
 
 #info-box-full img{
       width : 100%;
 }
 
+
+
 #info-box-full h3{
       text-align : center;
 }
-.store img{
-    height : 70px;
-      margin : 10px;
-      float  : left;
+
+
+
+
+}
+/*========== FORM ============*/
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
 }
 
-#shop {
-   background: url('mall.jpg');
-      width         : 70%;
-      height :       : 20px;
-      display       : block;
-      margin        : auto;
-      margin-top    : 12px;
-      padding       : 10px;
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
 }
 
-#shop img{
-    width : 100%;
-    height: auto;
+.button{
+      display : block;
+      width : 100%;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
 }
-#shop a {
-    text-decoration: none;
-    text-align: center;
-    font-family: sans-serif;
-    text-shadow: 2px 2px powderblue ;
-}
-
-
-
-
