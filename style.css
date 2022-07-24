@@ -165,7 +165,7 @@ a.info-box{
 
 .navbar {
     position: fixed;
-      top     : 80px;
+      bottom     : 80px;
       left    : 0;
       z-index : 500;
       width   : 100%;
@@ -184,7 +184,7 @@ a.info-box{
       color       : white;
       text-align  : center;
       text-decoration : none;
-      padding-top     : 12px; 
+      padding-bottom     : 12px; 
 }
 
 
