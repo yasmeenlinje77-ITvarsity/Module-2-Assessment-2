@@ -25,6 +25,15 @@ body{
 
 /*=============== TOP-TABS =========================*/
 
+#header img{
+      display: block;
+      margin : auto;
+      height : 70%;
+      padding-top: 15px; 
+}
+
+/*=============== TOP-TABS =========================*/
+
 #tabs-top{
       position: fixed;
       top     : 80px;
@@ -38,7 +47,7 @@ body{
 #tabs-top a{
       float   : left;
       display : block;
-      width   : 35%;
+      width   : 33%;
       height  :35px;
       font-weight : 700;
       color       : white;
@@ -48,15 +57,8 @@ body{
 }
 
 /*=============== MAIN-HOME =========================*/
-#main{
-    margin-top: 119px;
-    background: url('mall.jpg');
-    background-repeat: repeat-y;
-}
-
-#content{
-    padding-top: 1px;
-    padding-bottom: 50px;
+#main-home{
+       margin-top: 120px;
 }
 
 /*=========== BOTTOM-TABS ==============*/
@@ -83,6 +85,17 @@ body{
      padding-top     : 12px;
 }
 
+/*=============== MAIN-HOME =========================*/
+#main{
+    margin-top: 119px;
+    background: url('mall.jpg');
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
 
 /*================= INFO-BOX ==========*/
 
